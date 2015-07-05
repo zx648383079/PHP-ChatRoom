@@ -1,0 +1,112 @@
+﻿.page li,nav li {
+	display: inline;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.list,.login {
+	margin: auto;
+	width: 500px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.accept,.list li,.send {
+	margin-top: 10px;
+}
+
+.login {
+	padding-top: 10%;
+}
+
+.head {
+	font-style: #fff;
+	font-size: 50px;
+}
+
+input {
+	margin-left: 50px;
+	height: 50px;
+	border: 2px solid;
+	font-size: 30px;
+}
+[type=password],[type=text] {
+	padding: 0 20px;
+	width: 300px;
+	-moz-box-shadow: 10px 10px 5px #888;
+	box-shadow: 10px 10px 5px #888;
+	text-align: right;
+}
+[type=submit] {
+	width: 200px;
+	text-shadow: 5px 5px 5px red;
+}
+
+.chat,.message,textarea {
+	width: 600px;
+}
+
+a {
+	text-decoration: none;
+	text-shadow: 5px 5px 5px #000;
+}
+
+ul {
+	list-style: none;
+}
+
+.list li {
+	background-color: #E8E8E8;
+}
+
+.accept,.list li,.send,input {
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+}
+
+textarea {
+	font-size: 20px;
+}
+
+.message {
+	overflow: auto;
+	height: 400px;
+	border: 2px solid;
+	background-color: #C8C8C8;
+}
+
+.send {
+	margin-left: 150px;
+	padding-right: 20px;
+	background-color: #CFF;
+	text-align: right;
+}
+
+.accept {
+	margin-right: 150px;
+	padding-left: 20px;
+	background-color: #F0F0F0;
+	text-align: left;
+}
+
+.page,.page li {
+	background-color: #A80000;
+}
+
+.chat {
+	margin: auto;
+}
+
+.page {
+	position: fixed;
+	bottom: 0;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+}
+
+.page li {
+	margin: 10px;
+}
